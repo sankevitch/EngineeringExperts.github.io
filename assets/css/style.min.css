@@ -491,7 +491,17 @@ body {
   margin-bottom: 3.7rem;
   line-height: 1.7; }
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 768px) {
+  .intro {
+    background: linear-gradient(95.12deg, #262277 -29.07%, #4DB3D0 58.48%, #262478 126.85%);
+    text-align: center;
+    padding: 23rem 0; }
+    .intro__title, .intro__desc {
+      max-width: 100%; }
+    .intro__desc {
+      margin: 0 4rem 4rem; } }
+
+@media only screen and (max-width: 576px) {
   .intro {
     background: linear-gradient(95.12deg, #262277 -29.07%, #4DB3D0 58.48%, #262478 126.85%);
     text-align: center;
@@ -567,7 +577,7 @@ body {
   border-radius: 50%;
   border: 1px solid #fff; }
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 576px) {
   .companies {
     padding-left: 2rem;
     padding-right: 2rem; }
@@ -652,16 +662,32 @@ body {
   font-size: 1.8rem;
   line-height: 1.77; }
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 1200px) {
+  .advantages__item {
+    max-width: 45rem; } }
+
+@media only screen and (max-width: 768px) {
+  .advantages__item {
+    max-width: 60rem; }
+  .advantages__item-title {
+    text-align: center;
+    max-width: 100%; }
+    .advantages__item-title::before {
+      position: absolute;
+      display: block;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 30%;
+      margin: auto; } }
+
+@media only screen and (max-width: 576px) {
   .advantages__title {
     font-size: 2rem; }
   .advantages__item {
     margin-left: 2rem; }
     .advantages__item-title {
-      font-size: 1.4rem;
-      text-align: center; }
-      .advantages__item-title::before {
-        left: 38%; }
+      font-size: 1.4rem; }
     .advantages__item--js {
       background-image: url("../images/js-bg-mob.jpg"); }
     .advantages__item--team {
@@ -764,7 +790,14 @@ body {
 .orders__item:hover .orders__item-content {
   transform: translate(0, 0); }
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 1200px) {
+  .orders__list {
+    flex-wrap: wrap;
+    justify-content: space-around; }
+  .orders__item:not(:last-child) {
+    margin-bottom: 4rem; } }
+
+@media only screen and (max-width: 576px) {
   .orders__title {
     font-size: 2rem; }
   .orders__list {
@@ -875,10 +908,25 @@ body {
   border-radius: 50%;
   border: 1px solid #fff; }
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 1200px) {
   .clients {
-    max-width: 32.5rem;
-    margin: 0 auto 2rem; }
+    margin: 0 2rem 4.5rem; }
+    .clients__slider-item {
+      padding: 6rem 5rem 4.6rem; }
+    .clients__info {
+      margin-right: 2rem; } }
+
+@media only screen and (max-width: 768px) {
+  .clients__slider-inner {
+    flex-direction: column;
+    align-items: center; }
+  .clients__profile {
+    margin-bottom: 2rem; } }
+
+@media only screen and (max-width: 576px) {
+  .clients {
+    max-width: 53rem;
+    margin: 0 2rem 2rem; }
     .clients__title {
       font-size: 2rem;
       line-height: 1.2; }
@@ -982,9 +1030,23 @@ body {
   font-size: 1.8rem;
   line-height: 1.77; }
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 1200px) {
   .footer {
-    padding: 3rem 0 0 2rem; }
+    padding: 5rem; }
+    .footer__column {
+      margin-right: 2rem; } }
+
+@media only screen and (max-width: 768px) {
+  .footer__inner {
+    flex-direction: column; }
+  .footer__intro {
+    margin-bottom: 2rem; }
+  .footer__column:not(:last-child) {
+    margin-bottom: 2rem; } }
+
+@media only screen and (max-width: 576px) {
+  .footer {
+    padding: 3rem 0rem 0rem 2rem; }
     .footer__inner {
       flex-direction: column; }
     .footer__intro {
@@ -1174,7 +1236,16 @@ body {
   opacity: 1;
   pointer-events: all; }
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 1200px) {
+  .modal__form {
+    width: 40rem; }
+    .modal__form-textarea {
+      max-width: 25rem; }
+    .modal__form-input {
+      width: 25rem;
+      margin-right: 1rem; } }
+
+@media only screen and (max-width: 576px) {
   .modal {
     flex-direction: column;
     border-radius: 3rem;
