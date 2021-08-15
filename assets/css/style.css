@@ -572,7 +572,7 @@ body {
     line-height: 1.7;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 376px) {
     .intro {
         background: linear-gradient(95.12deg, #262277 -29.07%, #4DB3D0 58.48%, #262478 126.85%);
         text-align: center;
@@ -674,7 +674,7 @@ body {
     border: 1px solid #fff;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 376px) {
     .companies {
         padding-left: 2rem;
         padding-right: 2rem;
@@ -791,7 +791,7 @@ body {
     line-height: 1.77;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 376px) {
     .advantages__title {
         font-size: 2rem;
     }
@@ -942,7 +942,7 @@ body {
     transform: translate(0, 0);
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 376px) {
     .orders__title {
         font-size: 2rem;
     }
@@ -1095,7 +1095,7 @@ body {
     border: 1px solid #fff;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 376px) {
     .clients {
         max-width: 32.5rem;
         margin: 0 auto 2rem;
@@ -1255,7 +1255,7 @@ body {
     line-height: 1.77;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 376px) {
     .footer {
         padding: 3rem 0 0 2rem;
     }
@@ -1519,7 +1519,7 @@ body {
     pointer-events: all;
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 376px) {
     .modal {
         -ms-flex-direction: column;
         flex-direction: column;
