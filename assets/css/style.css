@@ -1263,6 +1263,31 @@ body {
         -ms-flex-direction: column;
         flex-direction: column;
     }
+
+    .footer__intro {
+        margin-bottom: 3rem;
+    }
+
+    .footer__intro-title {
+        font-size: 1.4rem;
+    }
+
+    .footer__intro-cop {
+        display: none;
+    }
+
+    .footer__column {
+        margin-bottom: 3rem;
+    }
+
+    .footer__column-title {
+        margin-bottom: 1.5rem;
+    }
+
+    .footer__column-link {
+        font-size: 1.6rem;
+        margin-bottom: 0.5rem;
+    }
 }
 
 .modal {

@@ -453,7 +453,7 @@ body {
 .header {
   padding: 5.8rem 1.5rem 0;
   width: 100%;
-  position: fixed;
+  position: absolute;
   z-index: 3; }
 
 .header__nav {
@@ -771,7 +771,7 @@ body {
     flex-direction: column;
     margin: 0 2rem; }
   .orders__item {
-    width: 30.5rem;
+    width: 100%;
     margin-bottom: 2rem; }
     .orders__item-title {
       font-size: 1.4rem;
@@ -877,7 +877,8 @@ body {
 
 @media only screen and (max-width: 375px) {
   .clients {
-    max-width: 30.5rem; }
+    max-width: 32.5rem;
+    margin: 0 auto 2rem; }
     .clients__title {
       font-size: 2rem;
       line-height: 1.2; }
@@ -1172,3 +1173,39 @@ body {
 #overlay.active {
   opacity: 1;
   pointer-events: all; }
+
+@media only screen and (max-width: 950px) {
+  .modal {
+    flex-direction: column;
+    border-radius: 3rem;
+    width: 32rem;
+    margin: 5rem;
+    left: 37%; }
+    .modal.active {
+      transform: translate(-50%, -57.5%) scale(1); }
+    .modal__contact {
+      border-radius: 30px 30px 0 0;
+      padding: 3rem 3rem 0 3rem; }
+    .modal__title {
+      font-size: 2rem; }
+    .modal__subtitle {
+      display: none;
+      font-size: 16px;
+      margin-bottom: 0; }
+    .modal__form {
+      width: 100%;
+      padding: 3rem 3rem 2rem 3rem; }
+      .modal__form-input {
+        max-width: 34rem; }
+      .modal__form-group {
+        margin-right: 0;
+        max-width: 25rem;
+        margin-bottom: 3.5rem; }
+      .modal__form-textarea {
+        max-width: 25rem; }
+      .modal__form-btn {
+        margin: 0 auto; }
+    .modal__form-main {
+      flex-direction: column; }
+    .modal__contacts {
+      display: none; } }
